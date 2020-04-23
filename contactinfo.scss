@@ -1,0 +1,28 @@
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact {
+    @extend %message;
+    background-color: green;
+}
+
+.mobile {
+    @extend %message;
+    background-color: orange;
+}
+
+.email {
+    @extend %message;
+    background-color: red;
+}
+
+.linkin {
+    @extend %message;
+    background-color: FloralWhite;
+}
